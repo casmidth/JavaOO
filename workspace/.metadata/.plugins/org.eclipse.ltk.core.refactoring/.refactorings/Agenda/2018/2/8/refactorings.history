@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;Contato.aprensentaTudao()&apos; to &apos;imprimeTudao&apos;&#x0A;- Original project: &apos;Agenda&apos;&#x0A;- Original element: &apos;Contato.aprensentaTudao()&apos;&#x0A;- Renamed element: &apos;Contato.imprimeTudao()&apos;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;aprensentaTudao&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;{Contato.java[Contato~aprensentaTudao" name="imprimeTudao" references="true" stamp="1519501376421" version="1.0"/>
+</session>
