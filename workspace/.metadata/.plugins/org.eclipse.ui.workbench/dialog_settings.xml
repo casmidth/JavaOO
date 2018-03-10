@@ -7,24 +7,27 @@
 	<section name="org.eclipse.ui.preferences.keysPreferencePage">
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="208" key="dialogHeight"/>
-		<item value="308" key="dialogWidth"/>
+		<item value="178" key="dialogHeight"/>
+		<item value="278" key="dialogWidth"/>
 		<list key="textEntries">
 			<item value="1"/>
-			<item value="2"/>
+			<item value="1"/>
+			<item value="1"/>
 		</list>
 		<list key="orderedElements">
-			<item value="preferences"/>
 			<item value="org.eclipse.jdt.ui.edit.text.java.create.getter.setter"/>
+			<item value="org.eclipse.ui.window.preferences(preferencePageId=org.eclipse.ui.preferencePages.Startup.Workspaces)"/>
+			<item value="preferences"/>
 		</list>
 		<list key="orderedProviders">
-			<item value="org.eclipse.ui.actions"/>
 			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.actions"/>
 		</list>
 		<list key="textArray">
+			<item value="ggas"/>
+			<item value="gsa"/>
 			<item value="preferences"/>
-			<item value="gga"/>
-			<item value="gg"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
