@@ -1,0 +1,9 @@
+package br.com.caelum.contas.modelo;
+
+public class SaldoInsuficienteException extends RuntimeException {
+
+	public SaldoInsuficienteException(String mensagem){
+		super.getMessage("Valor de saque maior que o saldo disponivel em conta");
+	}
+	
+}
