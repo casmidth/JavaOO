@@ -1,0 +1,15 @@
+package br.com.caelum.contas.concorrente;
+
+public class Programa implements Runnable {
+
+	private int id;
+	public Programa(int id){
+		this.id = id;
+	}
+	
+	@Override
+	public void run() {
+		
+	}
+
+}

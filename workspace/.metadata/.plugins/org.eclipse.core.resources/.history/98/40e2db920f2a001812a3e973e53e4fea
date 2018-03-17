@@ -1,0 +1,10 @@
+package br.com.caelum.contas.arquivos;
+
+public class EditorDeTexto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
