@@ -62,8 +62,6 @@ public abstract class Conta{
 	 * <h1>Pode colocar html dentro do java doc!</h1>
 	 */
 	public synchronized boolean saca(double valor){ //synchronized significa que esse metodo 'e atomico, ele nao permite que haja troca de threads no meio da execucao desse metodo
-		//o tomcat por exemplo tem esse tratamento de concorrencia nas suas applicacoes para web
-		//lembrando que solucoes 100% atomicas sao extremamente lentas, vide sistemas bancarios
 		if(valor > 0 ){
 			if(valor <= saldo + limite){ 
 				saldo = saldo - valor;
@@ -78,14 +76,13 @@ public abstract class Conta{
 		}
 	}
 	
-	public synchronized void deposita(double valor){
+	public void deposita(double valor){
 		if(valor < 0){
 			throw new IllegalArgumentException("Voce tentou depositar um valor negativo");
 		}
 		else{
 			saldo += valor;
-		}	
-		
+		}
 	}
 
 	public void transfere(double valor, Conta conta){

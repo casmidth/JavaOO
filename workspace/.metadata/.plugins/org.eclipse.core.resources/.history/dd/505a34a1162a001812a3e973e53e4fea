@@ -63,7 +63,6 @@ public abstract class Conta{
 	 */
 	public synchronized boolean saca(double valor){ //synchronized significa que esse metodo 'e atomico, ele nao permite que haja troca de threads no meio da execucao desse metodo
 		//o tomcat por exemplo tem esse tratamento de concorrencia nas suas applicacoes para web
-		//lembrando que solucoes 100% atomicas sao extremamente lentas, vide sistemas bancarios
 		if(valor > 0 ){
 			if(valor <= saldo + limite){ 
 				saldo = saldo - valor;

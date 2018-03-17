@@ -1,0 +1,33 @@
+package br.com.caelum.contas.chat;
+
+import java.io.IOException;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+public class Cliente {
+
+	public static void main(String[] args) throws UnknownHostException, IOException{
+		new Cliente("127.168.0.227", 5234).executa();
+		
+	}
+
+	private String host;
+	private int porta;
+	
+	public Cliente(String host, int porta){
+		this.host = host;
+		this.porta = porta;
+	}
+	
+	public void executa(){
+		Socket cliente = new Socket(this.host, this.porta);
+		System.out.println("O cliente se conectou ao servidor!");
+		
+		Recebedor r = new Recebedor(cliente.getInputStream());
+		new Thread(r).start();
+		
+		Scanner teclado = new 
+		
+		
+	}
+}
