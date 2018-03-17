@@ -7,7 +7,14 @@
 <fullyQualifiedTypeName name="br.com.caelum.javafx.api.util.Evento"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
-<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.ContaCorrente"/>
 <fullyQualifiedTypeName name="br.com.caelum.contas.modelo.Conta"/>
 <fullyQualifiedTypeName name="br.com.caelum.contas.modelo.ContaPoupanca"/>
+<fullyQualifiedTypeName name="java.beans.MethodDescriptor"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.ContaCorrente"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.SaldoInsuficienteException"/>
+<fullyQualifiedTypeName name="java.lang.Runtime"/>
 </qualifiedTypeNameHistroy>

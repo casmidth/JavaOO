@@ -1,0 +1,40 @@
+package br.com.caelum.testadores;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
+
+public class TestaLista {
+	
+	public static void main(String[] args){
+		List lista = new List();
+		lista.add("Paulo");
+		lista.add("Guilherme");
+		lista.add(38);
+		lista.add("Sergio");
+		System.out.println(lista);
+		
+		List<String> listaDeNomes = new LinkedList<>();
+		listaDeNomes.add("Paulo");
+		listaDeNomes.add("Guilherme");
+		//lista.add(38); //manter essa linha quebra o codigo, pois agora ele so aceita Strings devido ao Generics adicionado
+		listaDeNomes.add("Sergio");
+		System.out.println(lista);
+		
+		System.out.println(lista.contains("Paulo"));
+		lista.remove("Sergio");
+		System.out.println(lista);
+		System.out.println(lista.size());
+		
+		Set<String> linguagem = new HashSet<>(); //set nao guarda a ordem de insercao e nao tem duplicatas!
+		linguagem.add("Java");
+		linguagem.add("Cobol");
+		linguagem.add("C");
+		linguagem.add("Java");
+		
+		System.out.println(linguagem);
+				
+	}
+}
