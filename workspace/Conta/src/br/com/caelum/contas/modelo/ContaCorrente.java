@@ -1,6 +1,6 @@
 package br.com.caelum.contas.modelo;
 
-public class ContaCorrente extends Conta implements Tributavel {
+public class ContaCorrente extends Conta implements Tributavel, Comparable{
 	
 	public boolean saca(double valor){
 		return super.saca(valor + 0.10);                                                                                                                                                                                                                                                                                                                                              
@@ -16,5 +16,24 @@ public class ContaCorrente extends Conta implements Tributavel {
 	public double getValorImposto() {
 		return super.getSaldo() * 0.01; //usar super ou this?
 	}
+
+	@Override
+	public int compareTo(Object o) {
+//		if(o instanceof Conta){
+//			throwtodo implementar exception runtime
+//		}
+		ContaCorrente cc = (ContaCorrente)o;
+//		if(cc.getSaldo() > getSaldo()){
+//			return 10;
+//		}else if(cc.getSaldo() < getSaldo()){
+//			return -10;
+//			
+//		}else{
+//			return 0;
+//		}
+		//essa linha abaixo faz a mesma coisa do codigo comentado acima.
+		return (int) (getSaldo() - cc.getSaldo() );
+	}
+
 	
 }

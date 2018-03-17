@@ -1,0 +1,19 @@
+package br.com.caelum.testadores;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TestaOrdenacao {
+
+	public static void main(String[] args) {
+		List<Integer> numeros = new ArrayList<>();
+		numeros.add(10);
+		numeros.add(50);
+		numeros.add(30);
+		numeros.add(8);
+		
+		System.out.println(numero);
+		
+	}
+
+}

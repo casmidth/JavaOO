@@ -1,0 +1,12 @@
+package br.com.caelum.contas.arquivos;
+
+import java.io.File;
+
+public class LeArquivo {
+
+	public static void main(String[] args) {
+		File file = new File("arquivo.txt");
+		System.out.println(file.canRead());
+	}
+
+}
